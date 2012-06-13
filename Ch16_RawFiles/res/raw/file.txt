@@ -1,0 +1,11 @@
+
+Android is the first free, 
+open source, and fully 
+customizable mobile platform. 
+Android offers a full stack: 
+an operating system, middleware, 
+and key mobile applications. 
+It also contains a rich set of 
+APIs that allows third-party 
+developers to develop great 
+applications.

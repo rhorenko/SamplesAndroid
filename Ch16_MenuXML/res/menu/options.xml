@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+		android:id="@+id/open"
+		android:title="Open"
+		android:icon="@drawable/ic_menu_open"
+		android:orderInCategory="1"/>
+	<item
+		android:id="@+id/save"
+		android:title="Save"
+		android:icon="@drawable/ic_menu_save"
+		android:orderInCategory="2"/>
+	<item
+		android:id="@+id/edit"
+		android:title="Edit"
+		android:icon="@drawable/ic_menu_edit"
+		android:orderInCategory="3"/>
+	<item
+		android:id="@+id/help"
+		android:title="Help"
+		android:icon="@drawable/ic_menu_help"
+		android:orderInCategory="4"/>
+	<item
+		android:id="@+id/exit"
+		android:title="Exit"
+		android:icon="@drawable/ic_menu_exit"
+		android:orderInCategory="5"/>
+</menu>

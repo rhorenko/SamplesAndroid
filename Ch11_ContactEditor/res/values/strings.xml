@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts sample</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="field_name">Name:</string>
+    <string name="field_phone">Phone:</string>
+    <string name="title_add">Add new Contact</string>
+    <string name="title_edit">Edit Contact</string>
+    <string name="title_delete">Delete this Contact?</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="toast_notify">Please select Contact!</string>
+</resources>

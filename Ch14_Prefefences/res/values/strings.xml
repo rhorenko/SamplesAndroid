@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Preferences Sample</string>
+    <string name="pr_openmode">OpenMode</string>
+    <string name="pr_color">Color</string>
+    <string name="pr_color_black">ColorBlack</string>
+    <string name="pr_color_red">ColorRed</string>
+    <string name="pr_color_green">ColorGreen</string>
+    <string name="pr_color_blue">ColorBlue</string>
+    <string name="pr_size">Size</string>
+    <string name="pr_style">Style</string>
+    <string name="pr_style_regular">StyleRegular</string>
+    <string name="pr_style_bold">StyleBold</string>
+    <string name="pr_style_italic">StyleItalic</string>
+    <string name="pr_tone">Tone</string>
+</resources>

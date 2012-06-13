@@ -1,0 +1,55 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Open file mode preferences">
+        <CheckBoxPreference
+            android:key="@string/pr_openmode"
+            android:title="Open file"
+            android:summary="То open a file at start application"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Text preferences">
+        <PreferenceScreen
+            android:key="@string/pr_color"
+            android:title="Text Color"
+            android:summary="Set text color">
+            <CheckBoxPreference
+                android:key="@string/pr_color_black"
+                android:title="Black"
+                android:defaultValue="true"
+                android:summary="Set black color"/>
+            <CheckBoxPreference
+                android:key="@string/pr_color_red"
+                android:title="Red"
+                android:summary="Set red color"/>
+            <CheckBoxPreference
+                android:key="@string/pr_color_green"
+                android:title="Green"
+                android:summary="Set green color"/>
+            <CheckBoxPreference
+                android:key="@string/pr_color_blue"
+                android:title="Blue"
+                android:summary="Set blue color"/>
+        </PreferenceScreen>
+        <EditTextPreference
+            android:key="@string/pr_size"
+            android:title="Text Size"
+            android:summary="Set text size"
+            android:defaultValue="14"
+            android:dialogTitle="Enter text size (from 10 to 32)"/>
+        <ListPreference
+            android:key="@string/pr_style"
+            android:title="Text Style"
+            android:summary="Set text style"
+            android:defaultValue="1"
+            android:entries="@array/text_style"
+            android:entryValues="@array/text_style"
+            android:dialogTitle="Choose text style"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Other Preferences">
+        <RingtonePreference
+            android:key="@string/pr_tone"
+            android:title="Tone"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="Set tone (on or off)"/>
+            </PreferenceCategory>
+</PreferenceScreen>

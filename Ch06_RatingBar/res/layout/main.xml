@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    
+	<RatingBar 
+		android:id="@+id/rating" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"/>
+		<LinearLayout  
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:padding="20px">
+			<Button 
+				android:id="@+id/button_up"
+				android:layout_height="wrap_content" 
+				android:text="Up" 
+				android:layout_width="60px"/>
+			<Button
+				android:id="@+id/button_down" 
+				android:layout_height="wrap_content" 
+				android:text="Down" 
+				android:layout_width="60px"/>
+			<TextView
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:text="Value: " 
+				android:padding="10px" 
+				android:textStyle="bold"/>
+			<TextView 
+				android:id="@+id/text_value"
+				android:layout_height="wrap_content"  
+				android:layout_width="40px" 
+				android:textStyle="bold"/>
+				
+		</LinearLayout>
+</LinearLayout>

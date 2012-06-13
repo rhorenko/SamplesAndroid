@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="names">
+        <item>Andrew</item>
+        <item>Helen</item>
+        <item>Jack</item>
+    </string-array> 
+    
+    <integer-array name="digits">
+        <item>1999</item>
+        <item>2002</item>
+        <item>2010</item>  
+    </integer-array>
+</resources>
+

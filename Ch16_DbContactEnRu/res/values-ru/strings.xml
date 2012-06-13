@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Загрузка контактов из базы данных</string>
+    <string name="btn_ok">Сохранить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="field_name">Имя:</string>
+    <string name="field_phone">Тел.:</string>
+    <string name="title_add">Добавить новый контакт</string>
+    <string name="title_edit">Изменить контакт</string>
+    <string name="title_delete">Удалить контакт?</string>
+    <string name="menu_add">Добавить</string>
+    <string name="menu_edit">Изменить</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="toast_notify">Выберите контакт!</string>
+</resources>
